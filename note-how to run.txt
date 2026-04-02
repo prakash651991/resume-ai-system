@@ -5,4 +5,5 @@ python -m uvicorn main:app --reload
 
 
 cd frontend
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 npm run dev
